@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+.env
+django\static_files
+static/
+media/
+__pycache__/
+project/local_settings.py
