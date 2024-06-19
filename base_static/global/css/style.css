@@ -72,7 +72,18 @@
     text-decoration: none;
     transition: filter var(--transition-fast) ease-in-out;
   }
-  
+  .header-username {
+    color: white;
+    top: 97px;
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15px;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    transition: filter var(--transition-fast) ease-in-out;
+    font-size: var(--small-font-size);
+  } 
+
   .header-link:hover {
     filter: brightness(70%);
   }
@@ -202,9 +213,10 @@
   }
   
   .search-input {
-    font-size: var(--medium-font-size);
-    padding: 1rem 2rem;
+    font-size: 1.9rem;
+    padding: 0rem 2rem;
     width: 100%;
+    text-align: center; 
     max-width: 32rem;
     border-radius: var(--default-border-radius);
     border: 1px solid var(--link-light-color);
@@ -212,6 +224,7 @@
   
   .search-input:focus {
     box-shadow: 0 0 15px var(--link-light-color);
+    
   }
   
   .message {

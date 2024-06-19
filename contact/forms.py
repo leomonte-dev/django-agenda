@@ -12,6 +12,7 @@ class ContactForm(forms.ModelForm):
                 'accept': 'image/*',
             }
         ),
+        required=False,
         )
 
     first_name = forms.CharField(
@@ -21,7 +22,7 @@ class ContactForm(forms.ModelForm):
                 'placeholder': 'Nome',
             }
         ),
-        label='Primeiro Nome',
+        label='First name',
         help_text='Informe o primeiro nome',
     )
 
